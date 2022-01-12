@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   background: rgb(227, 235, 246);
   font-family: 'Avenir', Helvetica, Arial, 'system-ui', sans-serif;
@@ -34,7 +39,7 @@ main {
   display: flex;
 }
 
-.add-list {
+.addlist {
   margin: 0 10px auto;
   display: inline-block;
   flex-direction: column;
@@ -123,7 +128,8 @@ main {
 
 .list-counter {
   color: rgb(0, 140, 255);
-  padding: 15px;
+  margin-top: 5px;
+  padding: 20px 15px;
 }
 
 .deletelist {
