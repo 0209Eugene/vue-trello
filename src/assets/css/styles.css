@@ -16,6 +16,7 @@ html {
 
 header {
   background: rgb(38, 39, 61);
+  width: 100vw;
   height: 70px;
   color: white;
   font-style: italic;
